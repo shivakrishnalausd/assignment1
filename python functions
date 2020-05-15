@@ -1,5 +1,6 @@
  1 Write a function to calculate area and perimeter of a rectangle.
-import math
+# import math
+# not required
 def find_Area(Area):
     return height * width
 def find_Perimeter(Perimeter):
