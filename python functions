@@ -1,4 +1,57 @@
- 1 Write a function to calculate area and perimeter of a rectangle.
+#Create a tuple
+tuple = ("a","b","c","d","e","f","g","h",)
+#create a tuple without parentheses
+tuplez ="i","j","k",
+# To know the tuple type
+type(tuple) Out[6]: tuple
+type(tuplez) Out[7]: tuple
+# Prnit tuple In [9]: print(tuple)
+         ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h')
+# to convert tuple to list In [11]: list = list(tuple)
+# To check the type
+type(list)
+list
+#Remove First element from list In [15]: list.remove("a")
+# Check for element got removed
+              
+print(list)
+['b', 'c', 'd', 'e', 'f', 'g', 'h']
+# Remove Last element from list
+list.remove("h")
+# Check for element got removed from list
+print(list)
+['b', 'c', 'd', 'e', 'f', 'g']
+num = int(input("Enter Number")) mod = num % 2
+if mod > 0:
+print("Odd Number.") Enter Number7
+Odd Number.
+num = int(input("Enter Number")) mod = num % 2
+if mod > 0:
+print("Odd Number.") else:
+print("Even Number.") Enter Number8
+Even Number.
+list2 =[5,20,15,20,25,50,20] list2.remove(20)
+print(list2)
+[5, 15, 20, 25, 50, 20]
+list3 = [1, 3, 5, 7, 9] even_count, odd_count = 0, 0 for num in list3:
+if num%2 == 0: even_count += 1
+else:
+odd_count += 1
+print("Even numbers in the list: ",even_count) print("Odd numbers in the list: ", odd_count)
+Even numbers in the list:  0
+Odd numbers in the list:  1
+x = [5, 20, 15, 20, 25, 50, 20] while 20 in x:
+x.remove(20) print(x)
+         [5, 15, 25, 50]
+a=['1','2','3','4','5'] b=[6,7,8,9,0]
+c=dict(zip(a,b)) print(c)
+         {'1': 6, '2': 7, '3': 8, '4': 9, '5': 0}
+tr = 'Google News is a news aggregator app developed by Google. It prese unique_words = set(str.split(' '))
+print(unique_words, )
+{'by', 'a', 'news', 'on', 'released', 'News', 'developed', '2006', 'b eta', 'Google', 'Google.', 'organized', 'the', 'and', 'presents', 'as ', 'official', 'of', 'available', 'January', 'from', 'an', 'aggregato r', 'articles', 'September', 'continuous', 'flow', 'in', 'magazines.' , 'publishers', '2002', 'It', 'Web.', 'thousands', 'version', 'is', ' iOS,', 'Android,', 'app'}
+
+
+1 Write a function to calculate area and perimeter of a rectangle.
 # import math
 # not required
 def find_Area(Area):
@@ -46,3 +99,4 @@ exp = int(input("Please enter value exponent: "))
 power = epower(base,exp)
 
 print("{} raised to {}: {}" .format(base,exp,power))
+
