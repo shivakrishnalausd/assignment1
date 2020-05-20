@@ -1,0 +1,21 @@
+#1.	Write a program to create a file and insert a paragraph and close.
+file = open("demo.txt","a")
+file.write("this is text paragraph for creating python text file.")
+file.close
+# 2.	Write a program to read the first line of the file.
+file = open("demo.txt", "r")
+print(file.read())
+#3.	Write a program to append data into the file created above.
+file =open("demo.txt","a")
+file.write("To append data into the file created above.")
+file(file.read())
+#4.	Write a program to fetch the file located at the desktop.
+import os
+if os.path.exists("demofile.txt"):
+    else:
+        print("The file doen\t exist")
+#5.	Write a program to remove the file located at the desktop.
+if os.path.exists(demo.txt"):
+    os.remove("remove")
+    else:
+        print("The file does not exist")
